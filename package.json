@@ -5,7 +5,10 @@
   "version": "0.1.0",
   "license": "MIT",
   "main": "lib/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@weo-edu/autoprefix": "weo-edu/autoprefix",
+    "@weo-edu/is": "weo-edu/is"
+  },
   "devDependencies": {
     "mocha": "2.x",
     "standard": "^4.0.0"
