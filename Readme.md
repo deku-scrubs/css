@@ -1,13 +1,20 @@
 
 # style
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[ ![Codeship Status for weo-edu/color](https://img.shields.io/codeship/7d082a00-fa8a-0132-de32-1a34b2d0f857/master.svg)](https://codeship.com/projects/86954) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Convert style object to string.
 
 ## Installation
 
-    $ npm install style
+    $ npm install weo-edu/style
+
+## Example
+
+```js
+// output: "margin-left:10px;flex:1;"
+style({marginLeft: '10px', flex: 1})
+```
 
 ## License
 
