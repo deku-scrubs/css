@@ -7,7 +7,8 @@
   "main": "lib/index.js",
   "dependencies": {
     "@weo-edu/autoprefix": "weo-edu/autoprefix",
-    "@weo-edu/is": "weo-edu/is"
+    "@weo-edu/is": "weo-edu/is",
+    "object-assign": "^3.0.0"
   },
   "devDependencies": {
     "mocha": "2.x",

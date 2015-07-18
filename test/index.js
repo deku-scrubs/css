@@ -10,4 +10,18 @@ describe('style', function () {
 
     assert.equal(style(styl), "margin-left:10px;flex:1;")
   })
+
+  it('should work with arrays', function() {
+    var styl = [
+      {
+        width: '10px',
+        color: 'white'
+      },
+      {
+        color: 'red'
+      }
+    ]
+
+    assert.equal(style(styl), 'width:10px;color:red;')
+  })
 })
