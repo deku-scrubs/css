@@ -1,19 +1,19 @@
 
-# style
+# css
 
-[ ![Codeship Status for weo-edu/color](https://img.shields.io/codeship/7d082a00-fa8a-0132-de32-1a34b2d0f857/master.svg)](https://codeship.com/projects/86954) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[ ![Codeship Status for weo-edu/color](https://img.shields.io/codeship/6e3e0e20-1078-0133-224c-5a9b1173a114/master.svg)](https://codeship.com/projects/92040) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-Convert style object to string.
+Convert style object to css string.
 
 ## Installation
 
-    $ npm install weo-edu/style
+    $ npm install @deku-scrubs/css
 
 ## Example
 
 ```js
 // output: "margin-left:10px;flex:1;"
-style({marginLeft: '10px', flex: 1})
+css({marginLeft: '10px', flex: 1})
 ```
 
 ## License

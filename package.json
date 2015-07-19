@@ -1,12 +1,12 @@
 {
-  "name": "style",
+  "name": "@deku-scrubs/css",
   "description": "Convert style object to string.",
   "repository": "git://github.com/weo-edu/style.git",
   "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
   "dependencies": {
-    "@weo-edu/autoprefix": "weo-edu/autoprefix",
+    "@deku-scrubs/autoprefix": "deku-scrubs/autoprefix",
     "@weo-edu/is": "weo-edu/is",
     "object-assign": "^3.0.0"
   },
