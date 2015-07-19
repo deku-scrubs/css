@@ -1,7 +1,7 @@
 {
   "name": "@deku-scrubs/css",
   "description": "Convert style object to string.",
-  "repository": "git://github.com/weo-edu/style.git",
+  "repository": "git://github.com/deku-scrubs/css.git",
   "version": "0.1.1",
   "license": "MIT",
   "main": "lib/index.js",
